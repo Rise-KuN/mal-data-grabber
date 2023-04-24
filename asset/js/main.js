@@ -1,7 +1,7 @@
 let $ = jQuery;
 $('#generate').click(function() {
     let id = $('#genID').val();
-    fetch('https://api.jikan.moe/v4/anime/' + id)
+    fetch('https://api.jikan.moe/v4/anime/' + id + '/full')
     .then(res => res.json())
     .then(res => {
         // Image Webp
@@ -144,13 +144,13 @@ $('#generate').click(function() {
             }).join(""));
             // Twitter
             $('#twitter').val(res.data.external.map(item => {
-                if (item.name == "Twitter") {
+                if (item.name.includes("@")) {
                     return item.url
                 }
             }).join(""));
             // AnimeDB
             $('#anidb').val(res.data.external.map(item => {
-                if (item.name == "AnimeDB") {
+                if (item.name == "AniDB") {
                     return item.url
                 }
             }).join(""));
