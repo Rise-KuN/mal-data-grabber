@@ -162,7 +162,7 @@ $('#generate').click(function() {
             }).join(""));
             // Wikipedia
             $('#wikipedia').val(res.data.external.map(item => {
-                if (item.name == "Wikipedia") {
+                if (item.url.includes("en.wikipedia.org")) {
                     return item.url
                 }
             }).join(""));
