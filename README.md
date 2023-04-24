@@ -7,4 +7,4 @@ A Js Code To Get Anime Info From MAL by Jikan API V4
 Documentation: https://docs.api.jikan.moe
 </br>
 </br>
-Live Preview: https://jsfiddle.net/RiseKuN/myes71rk/81/
+Live Preview: https://jsfiddle.net/RiseKuN/Lpm82ft6/2/
