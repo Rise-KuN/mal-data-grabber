@@ -137,9 +137,11 @@ $('#generate').click(function() {
         // Official Site
         if (res.data.external) {  
             // Official Site
-            $('#official-site').val(res.data.external.map(item => {
-                if (item.name == "Official Site") {
-                    return item.url
+            let Duplicate_Official = false;
+            $('official-site').val(res.data.external.map(item => {
+                if (item.name === "Official Site" && !Duplicate_Official) {
+                  Duplicate_Official = true;
+                  return item.url;
                 }
             }).join(""));
             // Twitter
