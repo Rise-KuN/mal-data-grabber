@@ -138,7 +138,7 @@ $('#generate').click(function() {
         if (res.data.external) {  
             // Official Site
             let Duplicate_Official = false;
-            $('official-site').val(res.data.external.map(item => {
+            $('#official-site').val(res.data.external.map(item => {
                 if (item.name === "Official Site" && !Duplicate_Official) {
                   Duplicate_Official = true;
                   return item.url;
