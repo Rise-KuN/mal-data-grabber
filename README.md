@@ -1,4 +1,4 @@
-# MyAnimeList Data Grabber
+# Anime Data Grabber
 Get Anime Info From MAL & Anilist
 </br>
 </br>
