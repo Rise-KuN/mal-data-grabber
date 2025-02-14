@@ -7,4 +7,4 @@ Get Anime Info From MAL & Anilist
 Documentation: [MAL jikan](https://docs.api.jikan.moe) & [Anilist graphql](https://docs.anilist.co/guide/graphql/)
 </br>
 </br>
-Live Preview: [JSFiddle](https://jsfiddle.net/RiseKuN/vn9p5jsc/1/)
+Live Preview: [JSFiddle](https://jsfiddle.net/RiseKuN/vn9p5jsc/2/)
